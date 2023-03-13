@@ -1,0 +1,31 @@
+{
+  "name": "ChatGPT",
+  "short_name": "ChatGPT",
+  "icons": [
+    {
+      "src": "public/ios.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "public/ios2.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "status_bar_style": "black-translucent",
+  "ios": {
+    "status_bar_style": "black-translucent",
+    "viewport": {
+      "width": "device-width",
+      "height": "device-height",
+      "minimum-scale": 1,
+      "maximum-scale": 1,
+      "user-scalable": "no"
+    }
+  },
+  "background_color": "#212129",
+  "theme_color": "#212129"
+}
